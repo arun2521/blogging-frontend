@@ -1,0 +1,16 @@
+.form-header {
+  border: 1px solid;
+  padding: 25px;
+  width: 100%;
+  max-width: 40%;
+  margin-left: 10%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-header .ant-input {
+    height: 45px !important;
+}

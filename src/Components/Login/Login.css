@@ -1,0 +1,54 @@
+.login-container {
+  margin-right: 30px;
+  margin-top: 125px;
+  padding: 25px;
+  border: 1px solid #31363f;
+  border-radius: 25px;
+}
+
+.login-container .ant-row {
+  margin-left: 30px !important;
+  margin-right: 0px !important;
+}
+
+.login-container .ant-input {
+  height: 55px !important;
+  width: 140% !important;
+}
+
+.login-container .ant-input-affix-wrapper {
+  width: 140% !important;
+  height: 55px !important;
+}
+
+.header-text {
+  display: flex;
+  justify-content: center;
+
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+}
+
+.login-btn {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+
+  button {
+    padding: 15px 55px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid rgb(49, 54, 63);
+    background: linear-gradient(to right, #f3b95f, #fde767);
+    color: #31363f;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 25px;
+  }
+
+  button:hover {
+    background: linear-gradient(to right, #ff6868, #f3b95f);
+  }
+}
